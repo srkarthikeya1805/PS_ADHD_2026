@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# EEG / ML large files
+*.mat
+*.edf
+*.fif
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.keras
+*.onnx
+
+# Dataset archives
+*.zip
+*.rar
+*.7z
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
